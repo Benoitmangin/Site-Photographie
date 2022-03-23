@@ -1,0 +1,198 @@
+@font-face {
+  font-family: "blanka-regular";
+  src: url("/Blanka-Regular.otf");
+}
+* {
+  font-family: "raleway";
+}
+body {
+  margin: 0px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  width: 70%;
+}
+.menu ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+.menu li {
+  font-size: 1.2em;
+
+  font-weight: 560;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+.logo {
+  width: 15%;
+  margin-left: 15px;
+}
+.logo i {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.search {
+  width: 5%;
+}
+.search i {
+  font-size: 22px;
+}
+
+/* BANNIERE */
+#banniere {
+  background-image: url(images/banniere2.jpg);
+  height: 450px;
+  background-size: cover;
+  background-position: 70% 20%;
+  position: relative;
+}
+#banniere h1 {
+  font-family: "blanka-regular";
+  margin: auto;
+  font-size: 80px;
+  font-weight: 700;
+  color: #fffaed;
+  position: absolute;
+  bottom: 170px;
+  margin-left: 30%;
+}
+#banniere button {
+  position: absolute;
+  bottom: 130px;
+  margin-left: 44%;
+}
+
+#photo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.photo-title {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+.photo-title h2 {
+  align-self: center;
+  font-family: "krona one";
+  font-weight: 500;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.photo-title h3 {
+  margin-top: 0px;
+}
+/* Qui je suis */
+#me {
+  height: auto;
+}
+.me-items {
+  display: flex;
+  justify-content: flex-start;
+  width: 45%;
+  height: auto;
+  margin-left: 65px;
+  background-color: #f1f4fd;
+  border-radius: 2px 2px 2px 2px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  padding: 20px;
+}
+.me-items-flex1 {
+  width: 70%;
+}
+.me-items h2 {
+  font-size: 26px;
+}
+.me-items p {
+  font-size: 22px;
+  text-align: justify;
+}
+.me-items-logo {
+  font-size: 1.8em;
+}
+.me-items-pics img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.me-items-pics {
+  width: 30%;
+  margin-left: 30px;
+}
+/* Cartes */
+
+.cartes {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 80px;
+  margin-top: 20px;
+}
+.carte-item {
+  min-width: 300px;
+  width: 25%;
+  height: 550px;
+  border-radius: 2px 2px 2px 2px;
+  box-shadow: gray 2px 2px 15px;
+}
+.carte-item:hover {
+  background-color: black;
+  opacity: 0.9;
+}
+.cartes a {
+  text-decoration: none;
+}
+.cartes p {
+  margin-top: 238px;
+  text-align: center;
+  font-family: "krona one";
+  font-size: 40px;
+  color: white;
+}
+
+.urbain {
+  background-image: url(images/Urbain.jpg);
+  background-size: cover;
+}
+
+.paysages {
+  background-image: url(images/paysages.jpg);
+  background-size: cover;
+}
+
+.portraits {
+  background-image: url(images/portrait.jpg);
+  background-size: cover;
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  align-items: center;
+  border-top: black 1px solid;
+}
+.footer-logo {
+  margin-left: 50px;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+.footer p,
+a {
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+/*   PHOTOGRAPHIE */
