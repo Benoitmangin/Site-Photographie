@@ -1,0 +1,260 @@
+@font-face {
+  font-family: "blanka-regular";
+  src: url("/Blanka-Regular.otf");
+}
+* {
+  font-family: "raleway";
+}
+body {
+  margin: 0px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  width: 70%;
+}
+.menu ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+.menu li {
+  font-size: 1.2em;
+
+  font-weight: 560;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+.logo {
+  width: 16%;
+  margin-left: 15px;
+}
+.logo a  {
+  font-size: 25px;
+  margin: 7px;
+  color: black;
+}
+
+.search {
+  width: 5%;
+}
+.search i {
+  font-size: 22px;
+}
+
+/* BANNIERE */
+#banniere {
+  background-image: url(images/banniere2.jpg);
+  height: 450px;
+  background-size: cover;
+  background-position: 70% 20%;
+  position: relative;
+}
+#banniere h1 {
+  font-family: "blanka-regular";
+  margin: auto;
+  font-size: 65px;
+  font-weight: 700;
+  color: black;
+  position: absolute;
+  bottom: 170px;
+  margin-left: 29%;
+  padding: 22px 70px 40px 70px;
+  background-color: #f1f4fd;
+  border: black 5px solid;
+  border-radius: 75px;
+  text-align: center;
+  transition: transform 300ms;
+  cursor: pointer;
+}
+#banniere h1:hover {
+  transform: scale(1.05);
+  background-color: black;
+  color: #f1f4fd;
+  border: #f1f4fd 3px solid;
+}
+.div-btn {
+  margin-left: 25%;
+  padding: 300px;
+
+} 
+button {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  height: 30px;
+  border-radius: 23px;
+  opacity: 0.9;
+  font-size: 0.9em;
+  padding: 15px 20px 30px 20px;
+}
+.btn-style {
+  border: 2px black solid;
+  box-sizing: border-box;
+  transition: transform 200ms;
+  transform: scale(1.10);
+}
+button:hover {
+  background-color: black;
+  color: #f1f4fd;
+  border: #f1f4fd 2px solid;
+}
+
+#photo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.photo-title {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+.photo-title h2 {
+  align-self: center;
+  font-family: "krona one";
+  font-weight: 500;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.photo-title h3 {
+  margin-top: 0px;
+}
+/* Qui je suis */
+
+#me {
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.me-items {
+  display: flex;
+  justify-content: flex-start;
+  width: 45%;
+  height: 300px;
+  margin-left: 65px;
+  background-color: #f1f4fd;
+  border-radius: 2px 2px 2px 2px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  padding: 20px;
+}
+.me-items-flex1 {
+  width: 70%;
+}
+.me-items h2 {
+  font-size: 26px;
+}
+.me-items p {
+  font-size: 22px;
+  text-align: justify;
+}
+.me-items-logo {
+  font-size: 1.5em;
+}
+.me-items-logo a {
+  color: black;
+  margin: 7px;
+}
+.me-items-pics img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.me-items-pics {
+  width: 30%;
+  margin-left: 30px;
+}
+
+.post-insta {
+  width: 45%;
+  height: auto;
+  margin-left: 65px;
+  border-radius: 2px 2px 2px 2px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  padding: 20px;
+}
+#document {
+  height: 200px;
+}
+
+.embed {
+  display: flex;
+  align-items: center;
+}
+/* Cartes */
+
+.cartes {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 80px;
+  margin-top: 20px;
+}
+.carte-item {
+  min-width: 300px;
+  width: 25%;
+  height: 550px;
+  border-radius: 2px 2px 2px 2px;
+  box-shadow: gray 2px 2px 15px;
+}
+.carte-item:hover {
+  background-color: black;
+  opacity: 0.9;
+  transform: scale(1.04);
+  transition: 350ms;
+}
+.cartes a {
+  text-decoration: none;
+}
+.cartes p {
+  margin-top: 238px;
+  text-align: center;
+  font-family: "krona one";
+  font-size: 40px;
+  color: white;
+}
+
+.urbain {
+  background-image: url(images/Urbain.jpg);
+  background-size: cover;
+}
+
+.paysages {
+  background-image: url(images/paysages.jpg);
+  background-size: cover;
+}
+
+.portraits {
+  background-image: url(images/portrait.jpg);
+  background-size: cover;
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  align-items: center;
+  border-top: black 1px solid;
+}
+.footer-logo {
+  margin-left: 50px;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+.footer p,
+a {
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+/*   PHOTOGRAPHIE */
